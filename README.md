@@ -79,7 +79,7 @@ It is definitely not necessary for this exercise, but there are prettier plugins
 Goal: Get familiar with JSX syntax, component structure, and passing props
 
 Tasks: 
-* Send a `shouldDisplayImage` prop into the `Instructions` component that determines whether or not to display the H4I logo 
+* Send a `shouldDisplayImage` prop into the `Instructions` component that determines whether or not to display the H4I logo ([Hint](https://reactjs.org/docs/conditional-rendering.html))
 
 Once you're done, make a commit to your branch with the message "Part 1 Complete." Do the same for each part so your tech lead can follow your process for each step.
 
