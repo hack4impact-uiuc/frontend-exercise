@@ -1,5 +1,7 @@
 # Frontend Exercise
 
+Note: this repo is intended for Hack4Impact UIUC members. If you are interested in learning from this exercise, please use [this repo](https://github.com/hack4impact-uiuc/react-exercise) instead!
+
 This exercise is intended for you to get familiar with fundamental [React](https://reactjs.org/) concepts in an interactive way, as well as for you to get comfortable developing in a modern [Node.js](https://nodejs.org/en/) environment. 
 
 This project will be broken down into multiple parts. Each part will cover a fundamental React/frontend concept. After you finish this project, submit a pull request and assign your tech lead to review it! 
