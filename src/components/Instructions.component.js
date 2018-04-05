@@ -8,11 +8,24 @@ class Instructions extends Component {
     return (
       <div className="instructions">
         Follow the instructions on the README to get started!
-        <img
-          className="instructions__logo"
-          src="https://uiuc.hack4impact.org/img/colored-logo.png"
-          alt="h4i logo"
-        />
+        {this.props.shouldDisplayImage && (
+          <img
+            className="instructions__logo"
+            src="https://uiuc.hack4impact.org/img/colored-logo.png"
+            alt="h4i logo"
+          />
+        )}
+        <ul>
+          {this.props.items
+            .filter(item => item.length < 3)
+            .map(function(item, index) {
+              if (index % 2 === 0) {
+                item.toUpperCase()
+              }
+              return item
+            })
+            .map(item => <li>{item}</li>)}
+        </ul>
       </div>
     )
   }
