@@ -45,6 +45,10 @@ Open up your terminal and navigate to the directory you want this project in. Th
 ```
 git clone https://github.com/hack4impact-uiuc/frontend-exercise.git
 ```
+If you have *Forked* this repository, then hit the green "Clone or Download" dropdown instead and copy paste your link after:
+```
+git clone [LINK HERE]
+```
 
 Go into the newly cloned directory:
 ```
